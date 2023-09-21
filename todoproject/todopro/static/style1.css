@@ -1,0 +1,14 @@
+.my-banner{
+    background-color : Tomato;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.banner-text{
+    top: 10%;
+    left: 10%;
+    position: absolute;
+    text-align: center;
+    font-family: "Lucida Handwriting";
+}

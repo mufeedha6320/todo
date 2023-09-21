@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+  <div class="card shadow text-center bg-secondary"  style="height:30%; margin-top:20%">
+  <form method="post">
+    {% csrf_token %}
+    <div class="card-title" style="margin-top:5%"> <h3> Did you complete  task - {{keyname}}? </h3> </div> <br>
+    <button class="btn btn-danger" type="submit"> YES </button>
+    <a href="/" class="btn btn-primary"> NO </a>
+  </form>
+</div></div>
+{% endblock %}
