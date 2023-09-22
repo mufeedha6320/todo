@@ -35,7 +35,7 @@ class TaskUpdateView(UpdateView):
     def get_success_url(self):
         return reverse_lazy('cbvdetail', kwargs={'pk': self.object.id})
 
-
+'''
 def home(request):
     #get all tasks
     my_tasks = Task.objects.all()
@@ -60,5 +60,5 @@ def update(request,id):
         f.save()
         return redirect('/')
     return render(request,'edit.html',{'f':f,'task':task})
-
+'''
 
